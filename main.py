@@ -1,3 +1,4 @@
+# Information page
 import streamlit as st
 """
 Hi there friend! You came to your perfect virtual chill zone spot. If you are 
