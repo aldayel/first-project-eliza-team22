@@ -1,3 +1,4 @@
+# Information page
 import streamlit as st
 import time
 with open('./styles/main.css') as f:
