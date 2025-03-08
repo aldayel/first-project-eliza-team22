@@ -88,7 +88,6 @@ class Dictionary():
                
                   }
 
-    
 
     def regex_answr(self):
         return   {
