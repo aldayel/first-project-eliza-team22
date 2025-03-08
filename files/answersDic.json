@@ -1,0 +1,59 @@
+{
+    "greetings": [
+        "Hi, this is Elisa, your favorite coffee expert! What can I help you with?",
+        "Yo, what's up bro!",
+        "Hello! Ready to talk about coffee?",
+        "Hey there! What coffee-related question do you have for me?",
+        "Welcome, coffee lover! How can I help today?"
+    ],
+    "Unknown": [
+        "Sorry, I don't know how to answer that.",
+        "Hmm, I’m not sure. Can you ask something else about coffee?",
+        "I'm still learning! Maybe try asking me in a different way."
+    ],
+    "types_of_coffee": [
+        "There are many types of coffee! Some popular ones are Espresso, Cappuccino, Latte, Mocha, and Americano.",
+        "The world of coffee is vast! You've got Espresso, Macchiato, Cortado, Flat White, and more.",
+        "Are you looking for hot coffee, iced coffee, or something unique like a Turkish or Vietnamese coffee?"
+    ],
+    "brewing_methods": [
+        "There are different ways to brew coffee: French Press, Pour Over, Espresso Machine, AeroPress, and Moka Pot.",
+        "The brewing method affects the taste! Do you prefer a smooth Pour Over, a strong Espresso, or a classic Drip Coffee?",
+        "Want to make coffee at home? Try using a French Press for a rich flavor or an AeroPress for a clean taste."
+    ],
+    "coffee_beans": [
+        "The main coffee bean types are Arabica and Robusta. Arabica is smoother, while Robusta is stronger and has more caffeine.",
+        "Did you know there are also Liberica and Excelsa coffee beans? They're less common but have unique flavors!",
+        "Arabica is the most popular bean type, known for its smooth, complex flavors."
+    ],
+    "caffeine_content": [
+        "Espresso has more caffeine per ounce, but a regular coffee cup has more total caffeine because of its size.",
+        "Want a strong caffeine kick? Try a Ristretto or a Doppio shot!",
+        "Robusta beans contain almost twice as much caffeine as Arabica beans!"
+    ],
+    "coffee_health_benefits": [
+        "Coffee is rich in antioxidants and can help improve focus and energy levels!",
+        "Drinking coffee in moderation is linked to a reduced risk of diseases like Alzheimer's and Parkinson's.",
+        "Black coffee has almost zero calories and can boost metabolism."
+    ],
+    "best_milk_for_coffee": [
+        "Whole milk is the best for lattes and cappuccinos because it froths well.",
+        "Looking for dairy-free options? Try oat milk for a creamy texture or almond milk for a nutty flavor.",
+        "Soy milk works great in coffee, but some brands can curdle in hot coffee!"
+    ],
+    "coffee_grind_size": [
+        "For Espresso, you need a very fine grind. For French Press, use a coarse grind.",
+        "Medium grind is best for drip coffee makers, while AeroPress works well with medium-fine grind.",
+        "The grind size affects extraction! Too fine = bitter coffee, too coarse = weak coffee."
+    ],
+    "iced_coffee_vs_cold_brew": [
+        "Iced coffee is brewed hot and then chilled, while cold brew is steeped in cold water for 12+ hours.",
+        "Cold brew is smoother and less acidic compared to iced coffee.",
+        "Iced coffee is faster to make, but cold brew is often stronger and naturally sweeter."
+    ],
+    "how_to_make_espresso": [
+        "To make espresso, use an espresso machine with finely ground coffee and 9 bars of pressure.",
+        "Espresso requires a fine grind, high pressure, and about 30 seconds of extraction time.",
+        "No espresso machine? Try a Moka Pot or AeroPress for a similar strong coffee."
+    ]
+}
