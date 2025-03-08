@@ -1,30 +1,30 @@
 import re 
 import random
 
-def clear_chat_history():
-    """Clears chat history when the app is first loaded by truncating the files."""
-    try:
-        open("./files/userPrompts.txt", "w").close()
-        open("./files/chatAnswers.txt", "w").close()
-    except Exception as e:
-        print(f"Error clearing chat history: {e}")
+# def clear_chat_history():
+#     """Clears chat history when the app is first loaded by truncating the files."""
+#     try:
+#         open("./files/userPrompts.txt", "w").close()
+#         open("./files/chatAnswers.txt", "w").close()
+#     except Exception as e:
+#         print(f"Error clearing chat history: {e}")
 
-def load_chat_history():
-    try:
-        with open("./files/userPrompts.txt", "r+") as f:
-            user_prompts = f.readlines()
-        with open("./files/chatAnswers.txt", "r+") as f:
-            chat_answers = f.readlines()
-        return user_prompts, chat_answers
-    except FileNotFoundError:
-        return [], []
+# def load_chat_history():
+#     try:
+#         with open("./files/userPrompts.txt", "r+") as f:
+#             user_prompts = f.readlines()
+#         with open("./files/chatAnswers.txt", "r+") as f:
+#             chat_answers = f.readlines()
+#         return user_prompts, chat_answers
+#     except FileNotFoundError:
+#         return [], []
 
-# Save user input and bot response
-def save_chat(prompt, answer):
-    with open("./files/userPrompts.txt", "a") as f:
-        f.write(f"{prompt}\n")
-    with open("./files/chatAnswers.txt", "a")  as f:
-        f.write(f"{answer}\n")
+# # Save user input and bot response
+# def save_chat(prompt, answer):
+#     with open("./files/userPrompts.txt", "a") as f:
+#         f.write(f"{prompt}\n")
+#     with open("./files/chatAnswers.txt", "a")  as f:
+#         f.write(f"{answer}\n")
 
 def find_occurence_matching(regexDec: dict, userInput: str):
     """
