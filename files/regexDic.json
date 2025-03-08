@@ -1,3 +1,12 @@
 {
-    "greetings": "(hi|hello)"
+    "greetings": "(hi|hello|hey|yo|good (morning|afternoon|evening))",
+    "types_of_coffee": "(types of coffee|different coffee|coffee varieties|coffee options|type)",
+    "brewing_methods": "(brewing methods|how to brew|best way to make coffee|coffee brewing techniques)",
+    "coffee_beans": "(coffee beans|types of beans|arabica|robusta|liberica|excelsa|best coffee bean)",
+    "caffeine_content": "(caffeine|strongest coffee|high caffeine coffee|coffee strength|caffeine levels)",
+    "coffee_health_benefits": "(coffee benefits|is coffee healthy|coffee and health|coffee good for you)",
+    "best_milk_for_coffee": "(best milk for coffee|milk options|dairy alternatives|oat milk|almond milk)",
+    "coffee_grind_size": "(grind size|best grind for|how to grind coffee|grinding coffee beans)",
+    "iced_coffee_vs_cold_brew": "(cold brew|iced coffee|cold coffee|difference between iced coffee and cold brew)",
+    "how_to_make_espresso": "(make espresso|how to make espresso|espresso recipe|best espresso method)"
 }
