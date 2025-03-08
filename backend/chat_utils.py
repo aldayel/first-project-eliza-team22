@@ -72,3 +72,12 @@ def random_answer(bestMatching: str, answersDic: dict):
         answer dictionary
     """
     return answersDic[bestMatching][random.randint(0,len(answersDic[bestMatching])-1)]
+
+
+
+
+ def conv()
+    input
+     match == gtreegins 
+    d
+
