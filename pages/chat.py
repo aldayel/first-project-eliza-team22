@@ -9,7 +9,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 # Clear chat history: only on first page load
 if "chat_initialized" not in st.session_state:
-    ct.clear_chat_history()  
+    # ct.clear_chat_history()  
     st.session_state.chat_initialized = True
 
 # Load JSON files
@@ -39,8 +39,8 @@ if prompt:
     st.session_state.chat_history.append({"role": "user", "message": prompt})
     st.session_state.chat_history.append({"role": "assistant", "message": answer})
 
-    # Save new chat messages to file (optional for logging)
-    ct.save_chat(prompt, answer)
+    # # Save new chat messages to file (optional for logging)
+    # ct.save_chat(prompt, answer)
 
     # Display new messages
     st.chat_message("user").write(prompt)
