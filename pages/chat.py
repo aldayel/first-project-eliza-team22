@@ -2,6 +2,7 @@
 import streamlit as st
 import re 
 import random
+from eliza_Dictionary import *
 with open('./styles/chat.css') as f:
     css = f.read()
 
@@ -10,6 +11,14 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 st.page_link("main.py", label="Information About The App", icon="🏠")
 st.page_link("pages/chat.py", label="Chat with your favorite coffee expert!", icon="1️⃣")
 st.page_link("pages/team.py", label="About The Team", icon="2️⃣")
+
+dictionary = Dictionary()
+##this will contain  our dictionray
+regex_dic = dictionary.regex_dic()
+regex_answr = dictionary.regex_answr()
+
+
+
 
 regexDic = {
     "greetings": r"(hi|hello)"
