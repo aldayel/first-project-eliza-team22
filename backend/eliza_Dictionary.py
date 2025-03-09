@@ -88,8 +88,6 @@ class Dictionary():
                
                   }
 
-    
-
     def regex_answr(self):
         return   {
                 ## if user ask about bot condition ,and must likley  end of the sentence it  contian a (?)question mark
