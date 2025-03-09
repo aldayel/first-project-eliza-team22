@@ -77,7 +77,6 @@ p {
     top: 30px; 
 }
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -116,4 +115,38 @@ body {
     to {
         opacity: 1;
     }
+}
+
+/* Background of input box */
+div.st-emotion-cache-hzygls {
+    background: transparent !important;  
+    border: none !important;  
+    box-shadow: none !important; 
+}
+
+/* Chat Message Styling */
+div[data-testid="stChatMessage"] {
+    display: flex !important;
+    align-items: center !important; 
+    justify-content: center !important;
+    padding: 15px !important;
+    min-height: 60px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid #C49A6C !important;
+    border-radius: 15px !important;
+    color: #FAEBD7 !important;
+}
+
+/* Chat Message Text */
+div[data-testid="stChatMessage"] p {
+    flex-grow: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 0 !important;
+    height: 100% !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+    color: #FAEBD7 !important;
 }
