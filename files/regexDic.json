@@ -1,5 +1,5 @@
 {
-    "greetings": "(hi|hello|hey|yo|good (morning|afternoon|evening))",
+    "greetings": "(hi|hello|hey|good (morning|afternoon|evening))",
     "types_of_coffee": "(types of coffee|different coffee|coffee varieties|coffee options|type)",
     "brewing_methods": "(brewing methods|how to brew|best way to make coffee|coffee brewing techniques)",
     "coffee_beans": "(coffee beans|types of beans|arabica|robusta|liberica|excelsa|best coffee bean)",
