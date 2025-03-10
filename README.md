@@ -1,26 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/8QF_JL_J)
+
 # Eliza-project
 
 ## Brief Introduction
 
-The Eliza Task is inspired by one of the first natural language processing (NLP) programs, ELIZA, developed by Joseph Weizenbaum at MIT in the 1960s. ELIZA uses pattern matching and substitution to simulate human-like conversations. The most famous script, "DOCTOR," emulates a Rogerian psychotherapist. This task challenges you to build a web-based version of ELIZA that can interact with users by simulating a conversation.
+The Eliza Task is inspired by one of the first natural language processing (NLP) programs, ELIZA, developed by Joseph Weizenbaum at MIT in the 1960s. ELIZA uses pattern matching and substitution to simulate human-like conversations. The most famous script, "DOCTOR," emulates a Rogerian psychotherapist. This task aims to build a web-based version of ELIZA that can interact with users by simulating a conversation.
 
 ## Requirements 
 
 1. **Create the Following Pages:**
    - **Main Page (🤖_ELIZA):**  
-     This page should serve as the entry point to your project and give a brief overview of ELIZA.
+     This page is the entry point to the project and gives a brief overview of ELIZA.
    - **The Chat Page:**  
      Here, users will be able to interact with ELIZA. The page should simulate a conversation using pattern matching and substitutions.
    - **Team Page:**  
-     Provide information about the team behind the project. This could include your name, role, and a brief description of the project.
+     Provides information about the team behind the project. 
 
-2. **Simulate Human-Like Interaction:**  
-   Your ELIZA chatbot should be able to simulate a conversation based on simple scripts, like the "DOCTOR" script. The bot should react appropriately to the user's inputs.
 
 
 ## Helpful Resources
-- **Streamlit API Refrence:**
+- **Streamlit API Reference:**
    - [Streamlit API Refrence](https://docs.streamlit.io/develop/api-reference)
 
 - **Markdown Cheat Sheets:**
